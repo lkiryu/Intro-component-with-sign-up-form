@@ -1,4 +1,5 @@
 import React from "react";
+import validation from "../validation/validation";
 
 import './form-section.css'
 
@@ -24,7 +25,7 @@ const FormSection = () => {
                     <input className="input" type="password" name="password" placeholder="Password"></input>
                     <p className="none error-text">Password cannot be empty</p>
                 </div>
-                <input className="submit" type="submit" value="Claim your free trial"></input>
+                <input className="submit" type="submit" value="Claim your free trial" onClick={validation}></input>
                 <p className="terms">By clicking the button, you are agreeing to our <a href="/">Terms and Services</a></p>
             </form>
         </section>

@@ -29,4 +29,5 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(0, 100%, 74%);
+    gap: 100px;
 }

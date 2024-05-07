@@ -1,0 +1,18 @@
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 500px;
+}
+
+.info .title{
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.info .description{
+    color: hsl(0, 0%, 100%);
+}
